@@ -33,7 +33,7 @@ function ListUsers() {
 
         const updatedUsers = users.filter(user => user.id !== id)
 
-        setUsers(upadatedUsers)
+        setUsers(updatedUsers)
     }
 
     return (
